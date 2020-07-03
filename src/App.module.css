@@ -1,0 +1,49 @@
+html,
+body {
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+ 
+}
+
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+input[type="text"] {
+  background: #ffffff;
+  width: 20em;
+  height: 3em;
+  outline: none;
+  position: relative;
+  border: 1px solid grey;
+  border-radius: 7px 0 0 7px;
+  padding-left: 1em;
+}
+input[type="submit"] {
+  border-radius: 0px 7px 7px 0px;
+  border: 2px solid #3a3361;
+  height: 3em;
+  outline: none;
+  background-color: #3a3361;
+  color: white;
+  border: 1px solid #3a3361;
+  position: relative;
+  top: 2%;
+  cursor: pointer;
+}
